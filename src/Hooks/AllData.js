@@ -7,6 +7,7 @@ import work4 from "../assets/images/myAssets/chess-big.png";
 import work5 from "../assets/images/myAssets/copadata.png";
 import work6 from "../assets/images/myAssets/immo-big.png";
 import work7 from "../assets/images/myAssets/todo-tailwind.png";
+import work8 from "../assets/images/myAssets/portfolio-old.png";
 // works small images
 
 import workSmall1 from "../assets/images/myAssets/Matiz-2.png";
@@ -16,6 +17,7 @@ import workSmall4 from "../assets/images/myAssets/chess.png";
 import workSmall5 from "../assets/images/myAssets/copadata.png";
 import workSmall6 from "../assets/images/myAssets/real-estate.png";
 import workSmall7 from "../assets/images/myAssets/todo-tailwind.png";
+import workSmall8 from "../assets/images/myAssets/portfolio-old.png";
 // blog post images
 // blog image small
 
@@ -142,6 +144,20 @@ const AllData = () => {
         "I created a To-Do app using ReactJS and TailwindCSS with an emphasis on clean and minimalist design. Focusing on aesthetics and minimalism, this app embodies the design philosophy that less can often be more.",
     },
 
+    {
+      id: "7",
+      tag: "Code",
+      title: "outdated portfolio",
+      img: work8,
+      imgSmall: workSmall8,
+      bg: "#FFF3FC",
+      client: "Themeforest",
+      langages: "HTML, CSS, Javascript, React",
+      link: "https://superb-cupcake-78dbe9.netlify.app/",
+      linkText: "visit the website",
+      description:
+        "What was meant to become my old portfolio. A practice project of mine",
+    },
     // real estate  TODO:  link
     {
       id: "6",
