@@ -28,7 +28,7 @@ const HomePage = () => {
         <h3 className="mt-6 mb-1 text-5xl font-semibold dark:text-white">
           Monalisa Ashley
         </h3>
-        <p className="mb-4 text-[#7B7B7B]">Ui/Ux Designer</p>
+        <p className="mb-4 text-[#7B7B7B]">UI/UX Designer</p>
         {/* Avatar Info End */}
 
         {/* Social information start */}
@@ -73,19 +73,18 @@ const HomePage = () => {
         {/* Social information start */}
 
         {/* Dowanload button start */}
-        <a
-          href={cvFile}
-          download
-          className="flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
-        >
-          <img src={downloadIcon} alt="icon" className="mr-2" />
-          Download CV
-        </a>
 
         {/* Dowanload button End */}
       </div>
     </>
   );
 };
-
+// <a
+//   href={cvFile}
+//   download
+//   className="flex items-center bg-gradient-to-r from-[#FA5252] to-[#DD2476] duration-200 transition ease-linear hover:bg-gradient-to-l from-[#DD2476]  to-[#fa5252ef] px-8 py-3 text-lg text-white rounded-[35px] mt-6"
+// >
+//   <img src={downloadIcon} alt="icon" className="mr-2" />
+//   Download CV
+// </a>
 export default HomePage;

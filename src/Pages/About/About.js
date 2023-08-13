@@ -106,9 +106,9 @@ const About = () => {
                           <h6 className="font-medium dark:text-white">
                             <a
                               className="hover:text-[#FA5252] duration-300 transition"
-                              href="mailto:ibthemes21@gmail.com"
+                              href="mailto:simon.muscas@gmail.com"
                             >
-                              example@mail.com
+                              simon.muscas@gmail.com@mail.com
                             </a>
                           </h6>
                         </div>
@@ -122,7 +122,7 @@ const About = () => {
                             Birthday
                           </p>
                           <h6 className="font-medium dark:text-white">
-                            May 27, 1990
+                            Dec 31, 1994
                           </h6>
                         </div>
                       </div>

@@ -1,17 +1,17 @@
 import { useEffect, useState } from "react";
 // for work_images
 import work1 from "../assets/images/myAssets/Matiz-2.png";
-import work2 from "../assets/images/myAssets/discord-3.png";
-import work3 from "../assets/images/work_images/4.jpg";
-import work4 from "../assets/images/myAssets/chess.png";
+import work2 from "../assets/images/myAssets/discord-study-big.png";
+import work3 from "../assets/images/myAssets/study-app-big.png";
+import work4 from "../assets/images/myAssets/chess-big.png";
 import work5 from "../assets/images/myAssets/copadata.png";
-import work6 from "../assets/images/myAssets/real-estate.png";
+import work6 from "../assets/images/myAssets/immo-big.png";
 import work7 from "../assets/images/myAssets/todo-tailwind.png";
 // works small images
 
 import workSmall1 from "../assets/images/myAssets/Matiz-2.png";
 import workSmall2 from "../assets/images/myAssets/discord-3.png";
-import workSmall3 from "../assets/images/work_images/small/4.jpg";
+import workSmall3 from "../assets/images/myAssets/student-app.png";
 import workSmall4 from "../assets/images/myAssets/chess.png";
 import workSmall5 from "../assets/images/myAssets/copadata.png";
 import workSmall6 from "../assets/images/myAssets/real-estate.png";
@@ -24,8 +24,8 @@ import icon from "../assets/images/icons/icon-1.svg";
 import icon1 from "../assets/images/icons/icon-2.svg";
 // import icon2 from "../assets/images/icons/icon-3.svg";
 // import icon3 from "../assets/images/icons/icon-4.svg";
-// import icon4 from "../assets/images/icons/icon-5.svg";
-import icon5 from "../assets/images/icons/icon-6.svg";
+import icon4 from "../assets/images/icons/icon-5.svg";
+import icon6 from "../assets/images/icons/icon-6.svg";
 // contact image
 import iconPhone from "../assets/images/contact/phone-call 1.png";
 import iconEmail from "../assets/images/contact/email 1.png";
@@ -214,8 +214,8 @@ const AllData = () => {
       bg: "#FFF3FC",
       client: "Themeforest",
       langages: "HTML, CSS, Javascript, React",
-      link: "https://www.themeforest.net",
-      linkText: "themeforest.net",
+      link: "https://quiet-youtiao-e3b233.netlify.app/",
+      linkText: "visit website",
       description:
         "I created a To-Do app using ReactJS and TailwindCSS with an emphasis on clean and minimalist design. Focusing on aesthetics and minimalism, this app embodies the design philosophy that less can often be more.",
     },
@@ -317,7 +317,7 @@ const AllData = () => {
   const serviceArray = [
     {
       id: "1",
-      icon: icon5,
+      icon: icon6,
       title: "Web Development",
       des: "I develop responsive and visually appealing websites with HTML, CSS, JS and React",
       color: "#269FFF",
@@ -341,8 +341,8 @@ const AllData = () => {
     },
     {
       id: "4",
-      icon: icon1,
-      title: "Network management",
+      icon: icon4,
+      title: "IT",
       des: "I optimize home technology through system configuration, using Linux and Python.",
       color: "#DDA10C",
       bg: "#FEFAF0",

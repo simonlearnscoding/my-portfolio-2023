@@ -132,7 +132,7 @@ const CommonPortfilo = ({ condition, items }) => {
                     className="text-7xl cursor-pointer  absolute right-8 top-10 md:-right-[-16px] md:top-[16px] z-50  text-slate-200 hover:text-white transition transform hover:rotate-45 duration-300 ease-in-out "
                   />
                   <h2 className="text-[#ef4060] dark:hover:text-[#FA5252] text-4xl text-center font-bold">
-                    {singleData.tag} Project
+                    {singleData.title} Project
                   </h2>
 
                   <p className="dark:text-white  pt-8 text-2line font-normal text-[15px] sm:text-sm  ">
@@ -152,7 +152,7 @@ const CommonPortfilo = ({ condition, items }) => {
                     <div className="space-y-2">
                       <p className="dark:text-white flex items-center text-[15px] sm:text-lg ">
                         <FiExternalLink className="text-lg mr-2 hidden sm:block" />
-                        Preview :&nbsp;
+                        &nbsp;
                         <span className="font-medium transition-all duration-300 ease-in-out hover:text-[#ef4060] ">
                           <a
                             href={singleData?.link}
