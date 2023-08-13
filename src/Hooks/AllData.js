@@ -113,6 +113,68 @@ const AllData = () => {
   // Elements for protfilo section
   const workItems = [
     {
+      id: "4",
+      tag: "Code",
+      title: "Binary Search Tree Chess",
+      img: work4,
+      imgSmall: workSmall4,
+      bg: "#FFF3FC",
+      client: "Themeforest",
+      langages: "HTML, CSS, Javascript",
+      link: "https://lustrous-gumdrop-40ef5d.netlify.app/",
+      linkText: "visit the Website",
+      description:
+        "I built a chess simulation to practice the binary search tree algorithm, where a knight calculates and executes the shortest path to a king. It's an engaging way to illustrate the power of this algorithm in a familiar context.",
+    },
+
+    {
+      id: "7",
+      tag: "Code",
+      title: "Tailwind Todo App",
+      img: work7,
+      imgSmall: workSmall7,
+      bg: "#FFF3FC",
+      client: "Themeforest",
+      langages: "HTML, CSS, Javascript, React",
+      link: "https://quiet-youtiao-e3b233.netlify.app/",
+      linkText: "visit website",
+      description:
+        "I created a To-Do app using ReactJS and TailwindCSS with an emphasis on clean and minimalist design. Focusing on aesthetics and minimalism, this app embodies the design philosophy that less can often be more.",
+    },
+
+    // real estate  TODO:  link
+    {
+      id: "6",
+      tag: "Code",
+      title: "Real Estate Explorer",
+      img: work6,
+      imgSmall: workSmall6,
+      bg: "#FFF3FC",
+      client: "Themeforest",
+      langages: "HTML, CSS, Javascript, React",
+      link: "https://wonderful-taffy-bf1c5a.netlify.app/",
+      linkText: "visit the Website",
+      description:
+        "I crafted a real estate app using React, experimenting with unconventional designs and scroll motions. This project was an exciting opportunity to push creative boundaries and enhance my skills in animation and user experience.",
+    },
+
+    // Study app master thesis TODO: link
+    {
+      id: "3",
+      tag: "UX/UI",
+      title: "Carpe Diem",
+      img: work3,
+      imgSmall: workSmall3,
+      bg: "#FFF3FC",
+      client: "Themeforest",
+      langages: "UX Research, Figma",
+      link: "in progress",
+      linkText: "in Progress",
+      description:
+        "I Designed a productivity app aimed at combating procrastination, employing a user-centered approach to design. Through interviews and iterative designing, I identified key features such as habit tracking and social accountability. The final design, built with a harmonious color scheme of teal, warm gray, and rose, integrates engaging game elements and prioritizes flexibility, motivation, and mental well-being.",
+    },
+
+    {
       id: "1",
       tag: "UI/UX",
       title: "Matiz",
@@ -142,36 +204,6 @@ const AllData = () => {
         "I created an app using Python, Django, and MySQL that tracks time spent in Discord study voice channels, offering rewards as incentives. The development process allowed me to explore various software design patterns, including the PubSub Event Manager and Factory Singleton pattern, enhancing my understanding of shared state management in Python. With around 20 active users over the last year, this project not only taught me about maintaining and evolving a product but also demonstrated the real-world impact of thoughtful design and execution.",
     },
 
-    // Study app master thesis TODO: pics, link
-    {
-      id: "3",
-      tag: "UX/UI",
-      title: "Carpe Diem",
-      img: work3,
-      imgSmall: workSmall3,
-      bg: "#FFF3FC",
-      client: "Themeforest",
-      langages: "UX Research, Figma",
-      link: "in progress",
-      linkText: "in Progress",
-      description:
-        "I Designed a productivity app aimed at combating procrastination, employing a user-centered approach to design. Through interviews and iterative designing, I identified key features such as habit tracking and social accountability. The final design, built with a harmonious color scheme of teal, warm gray, and rose, integrates engaging game elements and prioritizes flexibility, motivation, and mental well-being.",
-    },
-
-    {
-      id: "4",
-      tag: "Code",
-      title: "Binary Search Tree Chess",
-      img: work4,
-      imgSmall: workSmall4,
-      bg: "#FFF3FC",
-      client: "Themeforest",
-      langages: "HTML, CSS, Javascript",
-      link: "https://lustrous-gumdrop-40ef5d.netlify.app/",
-      linkText: "visit the Website",
-      description:
-        "I built a chess simulation to practice the binary search tree algorithm, where a knight calculates and executes the shortest path to a king. It's an engaging way to illustrate the power of this algorithm in a familiar context.",
-    },
     // Zenon TODO: link
     {
       id: "5",
@@ -187,39 +219,6 @@ const AllData = () => {
       description:
         "In collaboration with Copadata, I conducted user research for their SaaS Zenon, identifying pain points in the onboarding flow. I proposed minimizing text content and presented an alternative approach with a mid-fidelity prototype, targeting the most common user challenges.",
     },
-
-    // real estate  TODO:  link
-    {
-      id: "6",
-      tag: "Code",
-      title: "Real Estate Explorer",
-      img: work6,
-      imgSmall: workSmall6,
-      bg: "#FFF3FC",
-      client: "Themeforest",
-      langages: "HTML, CSS, Javascript, React",
-      link: "https://wonderful-taffy-bf1c5a.netlify.app/",
-      linkText: "visit the Website",
-      description:
-        "I crafted a real estate app using React, experimenting with unconventional designs and scroll motions. This project was an exciting opportunity to push creative boundaries and enhance my skills in animation and user experience.",
-    },
-
-    // Task App  TODO: pics, link
-    {
-      id: "7",
-      tag: "Code",
-      title: "Tailwind Todo App",
-      img: work7,
-      imgSmall: workSmall7,
-      bg: "#FFF3FC",
-      client: "Themeforest",
-      langages: "HTML, CSS, Javascript, React",
-      link: "https://quiet-youtiao-e3b233.netlify.app/",
-      linkText: "visit website",
-      description:
-        "I created a To-Do app using ReactJS and TailwindCSS with an emphasis on clean and minimalist design. Focusing on aesthetics and minimalism, this app embodies the design philosophy that less can often be more.",
-    },
-    // "I created a To-Do app using ReactJS and TailwindCSS with an emphasis on clean and minimalist design. In focusing on aesthetics, I intentionally kept the functionality simple, opting for a more visually pleasing interface.  This App is a testament to the philosophy that sometimes, less can indeed be more, especially when it comes to design.",
   ];
   const [data, setData] = useState(workItems);
 
