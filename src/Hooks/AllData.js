@@ -130,14 +130,14 @@ const AllData = () => {
     {
       id: "7",
       tag: "Code",
-      title: "Tailwind Todo App",
+      title: "Minimalist Todo",
       img: work7,
       imgSmall: workSmall7,
       bg: "#FFF3FC",
       client: "Themeforest",
       langages: "HTML, CSS, Javascript, React",
       link: "https://quiet-youtiao-e3b233.netlify.app/",
-      linkText: "visit website",
+      linkText: "visit the website",
       description:
         "I created a To-Do app using ReactJS and TailwindCSS with an emphasis on clean and minimalist design. Focusing on aesthetics and minimalism, this app embodies the design philosophy that less can often be more.",
     },
