@@ -7,8 +7,6 @@ import work4 from "../assets/images/myAssets/chess.png";
 import work5 from "../assets/images/myAssets/copadata.png";
 import work6 from "../assets/images/myAssets/real-estate.png";
 import work7 from "../assets/images/myAssets/todo-tailwind.png";
-import work8 from "../assets/images/work_images/8.jpg";
-import work9 from "../assets/images/work_images/9.jpg";
 // works small images
 
 import workSmall1 from "../assets/images/myAssets/Matiz-2.png";
@@ -18,41 +16,22 @@ import workSmall4 from "../assets/images/myAssets/chess.png";
 import workSmall5 from "../assets/images/myAssets/copadata.png";
 import workSmall6 from "../assets/images/myAssets/real-estate.png";
 import workSmall7 from "../assets/images/myAssets/todo-tailwind.png";
-import workSmall8 from "../assets/images/work_images/small/8.jpg";
-import workSmall9 from "../assets/images/work_images/small/9.jpg";
 // blog post images
-import blog6 from "../assets/images/blog_images/6.jpg";
-import blog4 from "../assets/images/blog_images/4.jpg";
-import blog2 from "../assets/images/blog_images/2.jpg";
-import blog1 from "../assets/images/blog_images/1.jpg";
-import blog3 from "../assets/images/blog_images/3.jpg";
-import blog5 from "../assets/images/blog_images/5.jpg";
 // blog image small
-import blogSmall6 from "../assets/images/blog_images/small/6.jpg";
-import blogSmall4 from "../assets/images/blog_images/small/4.jpg";
-import blogSmall2 from "../assets/images/blog_images/small/2.jpg";
-import blogSmall1 from "../assets/images/blog_images/small/1.jpg";
-import blogSmall3 from "../assets/images/blog_images/small/3.jpg";
-import blogSmall5 from "../assets/images/blog_images/small/5.jpg";
 
-import img1 from "../assets/images/slider/brand-1.png";
-import img2 from "../assets/images/slider/brand-2.png";
-import img3 from "../assets/images/slider/brand-3.png";
-import img4 from "../assets/images/slider/brand-4.png";
-import img5 from "../assets/images/slider/brand-5.png";
 //  icon use as img here
 import icon from "../assets/images/icons/icon-1.svg";
 import icon1 from "../assets/images/icons/icon-2.svg";
-import icon2 from "../assets/images/icons/icon-3.svg";
-import icon3 from "../assets/images/icons/icon-4.svg";
-import icon4 from "../assets/images/icons/icon-5.svg";
+// import icon2 from "../assets/images/icons/icon-3.svg";
+// import icon3 from "../assets/images/icons/icon-4.svg";
+// import icon4 from "../assets/images/icons/icon-5.svg";
 import icon5 from "../assets/images/icons/icon-6.svg";
 // contact image
 import iconPhone from "../assets/images/contact/phone-call 1.png";
 import iconEmail from "../assets/images/contact/email 1.png";
 import iconMap from "../assets/images/contact/map 1.png";
 import { CgNotes } from "react-icons/cg";
-import { FaBlogger, FaRegUser } from "react-icons/fa";
+import { FaRegUser } from "react-icons/fa";
 import { AiOutlineHome } from "react-icons/ai";
 import { FiCodesandbox } from "react-icons/fi";
 import { RiContactsBookLine } from "react-icons/ri";
