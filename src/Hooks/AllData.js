@@ -145,7 +145,7 @@ const AllData = () => {
     },
 
     {
-      id: "7",
+      id: "9",
       tag: "Code",
       title: "outdated portfolio",
       img: work8,
@@ -358,7 +358,7 @@ const AllData = () => {
       id: "4",
       icon: icon4,
       title: "IT",
-      des: "I optimize home technology through system configuration, using Linux and Python.",
+      des: "in my freetime I love to optimize home technology using Linux and Python.",
       color: "#DDA10C",
       bg: "#FEFAF0",
     },
